@@ -27,12 +27,18 @@
     <ClInclude Include="Trafikklysene.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Car.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Trafikklysene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Car.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -46,6 +52,9 @@
       <Filter>Resource Files</Filter>
     </Image>
     <Image Include="Trafikklysene.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bg_img.bmp">
       <Filter>Resource Files</Filter>
     </Image>
   </ItemGroup>
