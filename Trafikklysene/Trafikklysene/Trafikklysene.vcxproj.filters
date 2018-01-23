@@ -57,5 +57,8 @@
     <Image Include="bg_img.bmp">
       <Filter>Resource Files</Filter>
     </Image>
+    <Image Include="mm_yellowcar.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
   </ItemGroup>
 </Project>

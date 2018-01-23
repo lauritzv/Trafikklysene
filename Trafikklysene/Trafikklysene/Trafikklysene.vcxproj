@@ -168,6 +168,7 @@
   </ItemGroup>
   <ItemGroup>
     <Image Include="bg_img.bmp" />
+    <Image Include="mm_yellowcar.bmp" />
     <Image Include="small.ico" />
     <Image Include="Trafikklysene.ico" />
   </ItemGroup>
