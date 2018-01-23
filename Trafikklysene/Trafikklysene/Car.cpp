@@ -2,22 +2,16 @@
 #include "Car.h"
 
 
-Car::Car(int initialpos, bool dx)
+Car::Car(int initialpos)
 {
 	through = false;
 	pos = initialpos;
-	dirx = dx;
 
 }
 
 
 Car::~Car()
 {
-}
-
-bool Car::isDirx()
-{
-	return dirx;
 }
 
 int Car::getPos()
@@ -33,6 +27,11 @@ void Car::setPos(int newpos)
 void Car::setThrough()
 {
 	through = true;
+}
+
+bool Car::getThrough()
+{
+	return through;
 }
 
 void Car::drive(int distance)

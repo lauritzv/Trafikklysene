@@ -4,15 +4,14 @@ class Car
 private:
 	int pos;
 	bool through;
-	bool dirx;
 
 public:
-	Car(int initialpos, bool dirx);
+	Car(int initialpos);
 	~Car();
-	bool isDirx();
 	int getPos();
 	void setPos(int newpos);
 	void setThrough();
+	bool getThrough();
 	void drive(int distance);
 
 };
