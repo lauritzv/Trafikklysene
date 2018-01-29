@@ -2,7 +2,7 @@
 #include "Car.h"
 
 
-Car::Car(int initialpos)
+Car::Car(double initialpos)
 {
 	through = false;
 	pos = initialpos;
@@ -14,12 +14,12 @@ Car::~Car()
 {
 }
 
-int Car::getPos()
+double Car::getPos()
 {
 	return pos;
 }
 
-void Car::setPos(int newpos)
+void Car::setPos(double newpos)
 {
 	pos = newpos;
 }
@@ -34,7 +34,7 @@ bool Car::getThrough()
 	return through;
 }
 
-void Car::drive(int distance)
+void Car::drive(double distance)
 {
 	pos += distance;
 }

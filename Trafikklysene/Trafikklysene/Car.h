@@ -2,17 +2,17 @@
 class Car
 {
 private:
-	int pos;
+	double pos;
 	bool through;
 
 public:
-	Car(int initialpos);
+	Car(double initialpos);
 	~Car();
-	int getPos();
-	void setPos(int newpos);
+	double getPos();
+	void setPos(double newpos);
 	void setThrough();
 	bool getThrough();
-	void drive(int distance);
+	void drive(double distance);
 
 };
 
